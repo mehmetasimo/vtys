@@ -1,3 +1,3 @@
 # vtys
-veritabanı yönetim sistemleri proje ödevi
+Database Management Systems Term Project
 Speciality Coffee Database
