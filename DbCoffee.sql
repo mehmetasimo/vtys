@@ -1,9 +1,6 @@
 --
--- PostgreSQL database dump
+-- VTYS proje odevi icin hazirlanan sql kodlari
 --
-
--- Dumped from database version 13.4
--- Dumped by pg_dump version 13.1
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1177,8 +1174,4 @@ CREATE TRIGGER station_change BEFORE UPDATE ON public."Region" FOR EACH ROW EXEC
 
 CREATE TRIGGER "stockAlter" BEFORE UPDATE ON public."RoastedCoffee" FOR EACH ROW EXECUTE FUNCTION public."stockChange"();
 
-
---
--- PostgreSQL database dump complete
---
-
+-- son
