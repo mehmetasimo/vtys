@@ -28,7 +28,7 @@ namespace DbCoffeeGui
         {
 
         }
-        NpgsqlConnection baglanti = new NpgsqlConnection("server=localHost; port=5432; Database=DBCoffee; user Id = postgres; password=dortgok4");
+        NpgsqlConnection baglanti = new NpgsqlConnection("server=localHost; port=5432; Database=DBCoffee; user Id = postgres; password=*******");
         private void btnList_Click(object sender, EventArgs e)
         {
             string sorgu = "select * from \"Coffee\"";
